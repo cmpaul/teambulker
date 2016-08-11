@@ -29,7 +29,7 @@ public class App {
     /**
      * Invites the given user to the currently authenticated user's team.
      * @param email String email address of the new team member to add.
-     * @return true if the invite was successful
+     * @return true if the invite was successful, false otherwise
      */
     public boolean addTeamMember(String email) {
         EmailValidator validator = EmailValidator.getInstance();
@@ -41,6 +41,7 @@ public class App {
                 for (Warning w : t.getWarnings()) {
                     System.out.println("  WARNING: " + w.getMessage());
                 }
+                return true;
             } catch (HelloSignException ex) {
                 System.out.println("FAILED! " + ex.getMessage());
             }
