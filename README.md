@@ -1,4 +1,7 @@
-# teambulker [![Build Status](https://travis-ci.org/cmpaul/teambulker.svg?branch=master)](https://travis-ci.org/cmpaul/teambulker)
+# teambulker
+
+[![Build Status](https://travis-ci.org/cmpaul/teambulker.svg?branch=master)](https://travis-ci.org/cmpaul/teambulker)
+
 A Java CLI tool to bulk-invite users to your HelloSign team.
 
 ## Run It
