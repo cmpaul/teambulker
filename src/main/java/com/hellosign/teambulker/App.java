@@ -86,9 +86,9 @@ public class App {
      */
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Invite team members to your HelloSign team in bulk.");
+            System.out.println("Invite team member(s) to your HelloSign team.");
             System.out.println("Usage:");
-            System.out.println("  java -jar teambulker.jar api_key csv_path");
+            System.out.println("  java -jar teambulker.jar api_key file_path");
             System.out.println("  java -jar teambulker.jar api_key email_address");
             return;
         }
