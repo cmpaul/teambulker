@@ -5,7 +5,7 @@ A Java CLI tool to bulk-invite users to your HelloSign team.
 
 Make sure you have [Java](https://java.com/en/download/) installed.
 
-1. Download [the JAR](/dist/teambulker.jar).
+1. Download [the JAR](https://github.com/cmpaul/teambulker/releases).
 1. Get your [HelloSign API key](https://www.hellosign.com/home/myAccount/current_tab/integrations#api).
 1. Execute one of the following from a command line:
 
